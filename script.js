@@ -3,7 +3,7 @@ let container=document.querySelector(".container")
 let chatContainer=document.querySelector(".chat-container")
 let btn=document.querySelector(".btn")
 let userMessage=null;
-let Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyC9wIm4pMnQBJY1bdGIcOtjBDKAsd44-zU'
+let Api_url='https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=YOU-API-KEY'
 
 //const Api_url=paste here your api url , you can watch it on my video
 function createChatBox(html,className){
